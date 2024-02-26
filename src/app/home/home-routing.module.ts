@@ -36,13 +36,12 @@ const routes: Routes = [
         loadChildren: () => import('../Screens/commande/commande.module').then( m => m.CommandePageModule)
       },
       {
-<<<<<<< HEAD
-        path: 'contact',
-        loadChildren: () => import('../Screens/contact/contact.module').then( m => m.ContactPageModule)
-=======
         path: 'profile',
         loadChildren: () => import('../Screens/profile/profile.module').then( m => m.ProfilePageModule)
->>>>>>> cbbeb9085e89ac0eb866ea23164c88e29fb4a29f
+      },
+      {
+        path: 'contact',
+        loadChildren: () => import('../Screens/contact/contact.module').then( m => m.ContactPageModule)
       },
     
       {
